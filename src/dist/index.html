@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Levin Schnabel's projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.bundle.css">
+  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+</head>
+
+<body>
+
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns has-text-centered">
+          <div class="column">
+            <h1 class="title is-1">
+              Levin Schnabel
+            </h1>
+            <h2 class="subtitle">
+              Software engineer & Sound enthusiast
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">About Me</h1>
+      <hr />
+      <p> I am a product and software engineer with a strong focus on product
+        discovery, mediating between stakeholders and translating
+        customers’ desires and business requirements into robust, and
+        modern software. Sound and music technology is my passion. Below are some projects that showcase my work.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Projects</h1>
+      <hr />
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+
+            <div class="tile is-parent">
+              <article class="tile is-child notification project-tile modal-trigger" data-target="project-1-modal">
+                <p class="title">Active Control System for Acoustic Guitars</p>
+                <figure class="image is-3by2 image-container">
+                  <img class="image-cover" src="img/project-1-cover.jpeg" alt="Project image">
+                  <div class="hover-overlay">Click to view</div>
+                </figure>
+              </article>
+            </div>
+
+            <div class="tile is-parent">
+              <article class="tile is-child notification project-tile modal-trigger" data-target="project-2-modal">
+                <p class="title">Acoustic-digital hybrid synthesizer</p>
+                <figure class="image is-4by3 image-container">
+                  <img class="image-cover" src="img/project-2-cover.jpeg" alt="Project image">
+                  <div class="hover-overlay">Click to view</div>
+                </figure>
+              </article>
+            </div>
+
+            <div class="tile is-parent">
+              <article class="tile is-child notification project-tile modal-trigger" data-target="project-3-modal">
+                <p class="title">Physical modelling synth</p>
+                <figure class="image is-4by3 image-container">
+                  <img class="image-cover" src="img/project-3-cover.png" alt="Project image">
+                  <div class="hover-overlay">Click to view</div>
+                </figure>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+
+            <div class="tile is-parent">
+              <article class="tile is-child notification project-tile modal-trigger" data-target="project-4-modal">
+                <p class="title">Silent chant (Karaoke synth)</p>
+                <figure class="image is-4by3 image-container">
+                  <img class="image-cover" src="img/project-4-cover.png" alt="Project image">
+                  <div class="hover-overlay">Click to view</div>
+                </figure>
+              </article>
+            </div>
+
+            <div class="tile is-parent">
+              <article class="tile is-child notification project-tile modal-trigger" data-target="project-5-modal">
+                <p class="title">Tape machine (physical model)</p>
+                <figure class="image is-4by3 image-container">
+                  <img class="image-cover" src="img/project-5-cover.jpeg" alt="Project image">
+                  <div class="hover-overlay">Click to view</div>
+                </figure>
+              </article>
+            </div>
+
+            <div class="tile is-parent">
+              <article class="tile is-child notification project-tile modal-trigger" data-target="project-6-modal">
+                <p class="title">Major/Minor chord classification (CNN)</p>
+                <figure class="image is-4by3 image-container">
+                  <img class="image-cover" src="img/project-6-cover.png" alt="Project image">
+                  <div class="hover-overlay">Click to view</div>
+                </figure>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Modals -->
+  <div id="project-1-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Active Control System for Acoustic Guitars</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-1-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img class="image-cover" src="img/carousel/active_control_1.jpeg">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img class="image-cover" src="img/carousel/active_control_2.jpeg">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img class="image-cover" src="img/carousel/active_control_3.jpeg">
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>
+            As part of my master’s thesis, I developed an active control system for acoustic guitars aimed at enhancing
+            the instrument’s expressive capabilities.
+            The system integrates a co-located voice coil actuator that both senses and induces vibrations in the guitar
+            body.
+            By employing control strategies such as PID controllers or band-pass filtering, the system can selectively
+            reduce the decay time of specific vibrational modes.<br><br>
+            When applied to the complete instrument, the system enables a range of creative audio effects within a
+            feedback loop—facilitating novel expressive gestures for the performer.
+            These include features like infinite sustain and dynamic, synthesized effects that position the guitar as an
+            interactive, co-performing entity. <br><br>
+            GitHub repository: <a href="https://github.com/moewe-audio/actuated-active-guitar-project"
+              target="_blank">github.com/moewe-audio/actuated-active-guitar-project</a><br>
+          </p>
+          <div class="tags">
+            <span class="tag">(embedded) C++</span>
+            <span class="tag">PCB design (KiCad)</span>
+            <span class="tag">3D printing (Fusion 360)</span>
+            <span class="tag">Acoustics</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-2-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Acoustic-digital hybrid synthesizer</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/carousel/hybr-synth-1.jpeg">
+        </figure>
+
+
+        <div class="content">
+
+          <p>
+            This synthesizer combines physical modeling synthesis (using finite-difference schemes) with acoustic
+            control elements.
+            An attached guitar string is used to excite the physical model and determine its output pitch.
+            Potentiometers provide traditional synthesizer-style controls, allowing the performer to shape how the model
+            sounds and how it interacts with both itself and the string.<br><br>
+            The main objective of this work was to address the limitations in the expressive potential of digital
+            musical instruments.
+            Many synthesizers overlook physical or acoustic control elements, which can reduce the performer’s role to
+            that of an operator rather than a musician.
+            While traditional synthesizers certainly have their strengths, I wanted to explore how a more acoustically
+            grounded approach to digital synthesis could unlock new expressive gestures and techniques.
+            This work was published at the NIME'25 conference. <br><br>
+            GitHub repository: <a href="https://github.com/moewe-audio/NEMO-acoustic-digital-hybrid-instrument"
+              target="_blank">github.com/moewe-audio/NEMO-acoustic-digital-hybrid-instrument</a><br>
+            Demonstration: <a href="https://youtu.be/jQMpChnYyKk" target="_blank">youtu.be/jQMpChnYyKk</a>
+          </p>
+
+
+          <div class="tags">
+            <span class="tag">(embedded) C++</span>
+            <span class="tag">Bela.io</span>
+            <span class="tag">User evaluation</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-3-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Physical modelling synth</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/project-3-cover.png">
+        </figure>
+
+        <div class="content">
+          <p>
+            This cross-platform VST plugin explores the use of coupled finite-difference schemes to create dynamic
+            feedback loops.
+            By allowing multiple models to interact, the system generates rich and evolving sonic textures.
+            A complexity-driven gain controller maintains the feedback within a musically expressive range,
+            preventing the system from becoming unstable or overwhelming.<br><br>
+            GitHub repository: <a href="https://github.com/moewe-audio/NEMO-acoustic-digital-hybrid-instrument"
+              target="_blank">github.com/moewe-audio/NEMO-acoustic-digital-hybrid-instrument</a><br>
+          </p>
+          <div class="tags">
+            <span class="tag">JUCE (VST/AU)</span>
+            <span class="tag">C++</span>
+          </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-4-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Silent chant (Karaoke synth)</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/project-4-cover.png">
+        </figure>
+        <div class="content">
+          <p>
+            <strong>Silent Chant</strong> is a silent karaoke application that allows users to "sing" along to songs by
+            moving their lips—without producing any audible sound.
+            The system estimates the vowel sound based on the user’s mouth shape and feeds this information into a
+            singing voice synthesizer.
+            The synthesizer then generates the corresponding vowel by shaping a formant filter bank.<br><br>
+            Users select a MIDI file to define the melody and pair it with an optional audio backing track, allowing
+            them to engage with their favorite songs in a more participatory way, without making any actual sound.
+            This is especially valuable in environments where vocalizing might be inappropriate, such as public spaces
+            or workplaces.<br><br>
+            To enhance expressivity, the user can also control the vibrato rate of the synthesized voice by subtly
+            tilting their head.<br><br>
+            GitHub repository: <a href="https://github.com/moewe-audio/silent-chant/tree/main"
+              target="_blank">github.com/moewe-audio/silent-chant</a>
+          </p>
+
+          <div class="tags">
+            <span class="tag">Web Audio API</span>
+            <span class="tag">Typescript</span>
+            <span class="tag">Mediapipe</span>
+            <span class="tag">Faust</span>
+          </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-5-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Tape machine (physical model)</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/project-5-cover.jpeg">
+        </figure>
+
+        <div class="content">
+          <p>
+            This project is a physically modeled simulation of a tape machine, designed to replicate the sonic
+            characteristics of analog tape recorders.
+            The effect models key physical components such as the tape head, tape magnetization, and nonlinear
+            hysteresis behaviors.
+            It can be applied to an audio signal as an effect, giving users direct control over the physical parameters
+            of the model. The implementation is heavily based on the work of Chowdhury:<br>
+            Chowdhury, J. (2019, September). Real-time physical modelling for analog tape machines. In <em>Proc. Int.
+              Conf. Digital Audio Effects (DAFx)</em> (p. 7).<br><br>
+            In addition, the plugin includes more "physically-inspired" tape warble effects to enhance realism and
+            creative use.<br><br>
+            GitHub repository: <a href="https://github.com/moewe-audio/tape-pm"
+              target="_blank">github.com/moewe-audio/tape-pm</a><br>
+            Demonstration video: <a href="https://youtu.be/CkNcRvx9gTY" target="_blank">youtu.be/CkNcRvx9gTY</a>
+          </p>
+          <div class="tags">
+            <span class="tag">JUCE</span>
+            <span class="tag">physical modelling</span>
+            <span class="tag">C++</span>
+          </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-6-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Project title</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/project-6-cover.png">
+        </figure>
+
+        <div class="content">
+          <p>
+            This project explores the feasibility of classifying major and minor piano chords using convolutional neural
+            networks (CNNs).
+            Built as a minimum viable product, the system takes audio recordings of piano chords and classifies them as
+            either major or minor, without relying on symbolic input like MIDI.<br><br>
+
+            I used Python with TensorFlow/Keras to implement a CNN trained on amplitude spectrograms extracted via the
+            short-time Fourier transform (STFT).
+            The training data combined two publicly available datasets, Audio Piano Triads and JazzNet, and was
+            preprocessed with normalization and augmentation techniques.
+            The final model consists of three convolutional layers followed by a fully connected layer and dropout
+            regularization, achieving ~79% test accuracy.<br><br>
+
+            While the results are promising, they highlight the challenges of generalization across diverse audio
+            sources and chord types.
+            The project was primarily an exploration of architecture design, dataset preparation, and model evaluation
+            in the context of music information retrieval.
+            Future improvements could include expanded chord coverage and robustness to real-world recording
+            conditions.<br><br>
+
+            GitHub: <a href="https://github.com/moewe-audio/AutomaticChordRecognition"
+              target="_blank">github.com/moewe-audio/AutomaticChordRecognition</a><br>
+          </p>
+
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Tensorflow (Keras)</span>
+            <span class="tag">CNNs</span>
+          </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Template based on devolio
+        by Mark Macneil, used under the MIT License.
+      </p>
+      <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
+        <i class="fab fa-github"></i> <strong>devfolio</strong>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/bundle.js"></script>
+</body>
+
+</html>
